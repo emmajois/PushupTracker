@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6952AB92A1200B6B46B /* PushupModel.swift */; };
+		FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */; };
+		FCFB77962AB9258C00EE480E /* Pushup_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB77952AB9258C00EE480E /* Pushup_TrackerApp.swift */; };
+		FCFB77982AB9258C00EE480E /* PushupTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB77972AB9258C00EE480E /* PushupTrackerView.swift */; };
+		FCFB779A2AB9258D00EE480E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFB77992AB9258D00EE480E /* Assets.xcassets */; };
+		FCFB779D2AB9258D00EE480E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFB779C2AB9258D00EE480E /* Preview Assets.xcassets */; };
+		FCFB77A72AB9258D00EE480E /* Pushup_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB77A62AB9258D00EE480E /* Pushup_TrackerTests.swift */; };
+		FCFB77B12AB9258D00EE480E /* Pushup_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB77B02AB9258D00EE480E /* Pushup_TrackerUITests.swift */; };
+		FCFB77B32AB9258D00EE480E /* Pushup_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB77B22AB9258D00EE480E /* Pushup_TrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFB77A32AB9258D00EE480E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFB778A2AB9258C00EE480E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFB77912AB9258C00EE480E;
+			remoteInfo = "Pushup Tracker";
+		};
+		FCFB77AD2AB9258D00EE480E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFB778A2AB9258C00EE480E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFB77912AB9258C00EE480E;
+			remoteInfo = "Pushup Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA6F6952AB92A1200B6B46B /* PushupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupModel.swift; sourceTree = "<group>"; };
+		FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupViewModel.swift; sourceTree = "<group>"; };
+		FCFB77922AB9258C00EE480E /* Pushup Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushup Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFB77952AB9258C00EE480E /* Pushup_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerApp.swift; sourceTree = "<group>"; };
+		FCFB77972AB9258C00EE480E /* PushupTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupTrackerView.swift; sourceTree = "<group>"; };
+		FCFB77992AB9258D00EE480E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFB779C2AB9258D00EE480E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCFB77A22AB9258D00EE480E /* Pushup TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pushup TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFB77A62AB9258D00EE480E /* Pushup_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerTests.swift; sourceTree = "<group>"; };
+		FCFB77AC2AB9258D00EE480E /* Pushup TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pushup TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFB77B02AB9258D00EE480E /* Pushup_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerUITests.swift; sourceTree = "<group>"; };
+		FCFB77B22AB9258D00EE480E /* Pushup_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFB778F2AB9258C00EE480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB779F2AB9258D00EE480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB77A92AB9258D00EE480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA6F6902AB928E700B6B46B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB77952AB9258C00EE480E /* Pushup_TrackerApp.swift */,
+				FCFB77972AB9258C00EE480E /* PushupTrackerView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FCA6F6922AB9290300B6B46B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCA6F6952AB92A1200B6B46B /* PushupModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FCA6F6942AB9295F00B6B46B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCFB77892AB9258C00EE480E = {
+			isa = PBXGroup;
+			children = (
+				FCFB77942AB9258C00EE480E /* Pushup Tracker */,
+				FCFB77992AB9258D00EE480E /* Assets.xcassets */,
+				FCFB77A52AB9258D00EE480E /* Pushup TrackerTests */,
+				FCFB77AF2AB9258D00EE480E /* Pushup TrackerUITests */,
+				FCFB77932AB9258C00EE480E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFB77932AB9258C00EE480E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB77922AB9258C00EE480E /* Pushup Tracker.app */,
+				FCFB77A22AB9258D00EE480E /* Pushup TrackerTests.xctest */,
+				FCFB77AC2AB9258D00EE480E /* Pushup TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFB77942AB9258C00EE480E /* Pushup Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				FCA6F6922AB9290300B6B46B /* Model */,
+				FCA6F6902AB928E700B6B46B /* View */,
+				FCA6F6942AB9295F00B6B46B /* ViewModel */,
+				FCFB779B2AB9258D00EE480E /* Preview Content */,
+			);
+			path = "Pushup Tracker";
+			sourceTree = "<group>";
+		};
+		FCFB779B2AB9258D00EE480E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB779C2AB9258D00EE480E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCFB77A52AB9258D00EE480E /* Pushup TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB77A62AB9258D00EE480E /* Pushup_TrackerTests.swift */,
+			);
+			path = "Pushup TrackerTests";
+			sourceTree = "<group>";
+		};
+		FCFB77AF2AB9258D00EE480E /* Pushup TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB77B02AB9258D00EE480E /* Pushup_TrackerUITests.swift */,
+				FCFB77B22AB9258D00EE480E /* Pushup_TrackerUITestsLaunchTests.swift */,
+			);
+			path = "Pushup TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFB77912AB9258C00EE480E /* Pushup Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFB77B62AB9258D00EE480E /* Build configuration list for PBXNativeTarget "Pushup Tracker" */;
+			buildPhases = (
+				FCFB778E2AB9258C00EE480E /* Sources */,
+				FCFB778F2AB9258C00EE480E /* Frameworks */,
+				FCFB77902AB9258C00EE480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pushup Tracker";
+			productName = "Pushup Tracker";
+			productReference = FCFB77922AB9258C00EE480E /* Pushup Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFB77A12AB9258D00EE480E /* Pushup TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFB77B92AB9258D00EE480E /* Build configuration list for PBXNativeTarget "Pushup TrackerTests" */;
+			buildPhases = (
+				FCFB779E2AB9258D00EE480E /* Sources */,
+				FCFB779F2AB9258D00EE480E /* Frameworks */,
+				FCFB77A02AB9258D00EE480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFB77A42AB9258D00EE480E /* PBXTargetDependency */,
+			);
+			name = "Pushup TrackerTests";
+			productName = "Pushup TrackerTests";
+			productReference = FCFB77A22AB9258D00EE480E /* Pushup TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCFB77AB2AB9258D00EE480E /* Pushup TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFB77BC2AB9258D00EE480E /* Build configuration list for PBXNativeTarget "Pushup TrackerUITests" */;
+			buildPhases = (
+				FCFB77A82AB9258D00EE480E /* Sources */,
+				FCFB77A92AB9258D00EE480E /* Frameworks */,
+				FCFB77AA2AB9258D00EE480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFB77AE2AB9258D00EE480E /* PBXTargetDependency */,
+			);
+			name = "Pushup TrackerUITests";
+			productName = "Pushup TrackerUITests";
+			productReference = FCFB77AC2AB9258D00EE480E /* Pushup TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFB778A2AB9258C00EE480E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FCFB77912AB9258C00EE480E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FCFB77A12AB9258D00EE480E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FCFB77912AB9258C00EE480E;
+					};
+					FCFB77AB2AB9258D00EE480E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FCFB77912AB9258C00EE480E;
+					};
+				};
+			};
+			buildConfigurationList = FCFB778D2AB9258C00EE480E /* Build configuration list for PBXProject "Pushup Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFB77892AB9258C00EE480E;
+			productRefGroup = FCFB77932AB9258C00EE480E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFB77912AB9258C00EE480E /* Pushup Tracker */,
+				FCFB77A12AB9258D00EE480E /* Pushup TrackerTests */,
+				FCFB77AB2AB9258D00EE480E /* Pushup TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFB77902AB9258C00EE480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB779D2AB9258D00EE480E /* Preview Assets.xcassets in Resources */,
+				FCFB779A2AB9258D00EE480E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB77A02AB9258D00EE480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB77AA2AB9258D00EE480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFB778E2AB9258C00EE480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */,
+				FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */,
+				FCFB77982AB9258C00EE480E /* PushupTrackerView.swift in Sources */,
+				FCFB77962AB9258C00EE480E /* Pushup_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB779E2AB9258D00EE480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB77A72AB9258D00EE480E /* Pushup_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFB77A82AB9258D00EE480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB77B32AB9258D00EE480E /* Pushup_TrackerUITestsLaunchTests.swift in Sources */,
+				FCFB77B12AB9258D00EE480E /* Pushup_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFB77A42AB9258D00EE480E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFB77912AB9258C00EE480E /* Pushup Tracker */;
+			targetProxy = FCFB77A32AB9258D00EE480E /* PBXContainerItemProxy */;
+		};
+		FCFB77AE2AB9258D00EE480E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFB77912AB9258C00EE480E /* Pushup Tracker */;
+			targetProxy = FCFB77AD2AB9258D00EE480E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCFB77B42AB9258D00EE480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCFB77B52AB9258D00EE480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFB77B72AB9258D00EE480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pushup Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = X6HD2Z8AT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmajoi.Pushup-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCFB77B82AB9258D00EE480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pushup Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = X6HD2Z8AT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmajoi.Pushup-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCFB77BA2AB9258D00EE480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6HD2Z8AT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmajoi.Pushup-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushup Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pushup Tracker";
+			};
+			name = Debug;
+		};
+		FCFB77BB2AB9258D00EE480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6HD2Z8AT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmajoi.Pushup-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushup Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pushup Tracker";
+			};
+			name = Release;
+		};
+		FCFB77BD2AB9258D00EE480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6HD2Z8AT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmajoi.Pushup-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pushup Tracker";
+			};
+			name = Debug;
+		};
+		FCFB77BE2AB9258D00EE480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6HD2Z8AT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmajoi.Pushup-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pushup Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFB778D2AB9258C00EE480E /* Build configuration list for PBXProject "Pushup Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB77B42AB9258D00EE480E /* Debug */,
+				FCFB77B52AB9258D00EE480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFB77B62AB9258D00EE480E /* Build configuration list for PBXNativeTarget "Pushup Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB77B72AB9258D00EE480E /* Debug */,
+				FCFB77B82AB9258D00EE480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFB77B92AB9258D00EE480E /* Build configuration list for PBXNativeTarget "Pushup TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB77BA2AB9258D00EE480E /* Debug */,
+				FCFB77BB2AB9258D00EE480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFB77BC2AB9258D00EE480E /* Build configuration list for PBXNativeTarget "Pushup TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB77BD2AB9258D00EE480E /* Debug */,
+				FCFB77BE2AB9258D00EE480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFB778A2AB9258C00EE480E /* Project object */;
+}
