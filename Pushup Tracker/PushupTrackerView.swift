@@ -38,5 +38,5 @@ struct PushupTrackerView: View {
 }
 
 #Preview {
-    PushupTrackerView(pushupViewModel: <#T##PushupViewModel#>)
+    PushupTrackerView(pushupViewModel: PushupViewModel())
 }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6952AB92A1200B6B46B /* PushupModel.swift */; };
 		FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */; };
+		FCE9CDD52AB9EC4700A748AC /* Dated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9CDD42AB9EC4700A748AC /* Dated.swift */; };
+		FCE9CDD72AB9ECE200A748AC /* Array+Dated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9CDD62AB9ECE200A748AC /* Array+Dated.swift */; };
 		FCFB77962AB9258C00EE480E /* Pushup_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB77952AB9258C00EE480E /* Pushup_TrackerApp.swift */; };
 		FCFB77982AB9258C00EE480E /* PushupTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB77972AB9258C00EE480E /* PushupTrackerView.swift */; };
 		FCFB779A2AB9258D00EE480E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFB77992AB9258D00EE480E /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		FCA6F6952AB92A1200B6B46B /* PushupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupModel.swift; sourceTree = "<group>"; };
 		FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupViewModel.swift; sourceTree = "<group>"; };
+		FCE9CDD42AB9EC4700A748AC /* Dated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dated.swift; sourceTree = "<group>"; };
+		FCE9CDD62AB9ECE200A748AC /* Array+Dated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Dated.swift"; sourceTree = "<group>"; };
 		FCFB77922AB9258C00EE480E /* Pushup Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushup Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFB77952AB9258C00EE480E /* Pushup_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushup_TrackerApp.swift; sourceTree = "<group>"; };
 		FCFB77972AB9258C00EE480E /* PushupTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupTrackerView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,15 @@
 			name = ViewModel;
 			sourceTree = "<group>";
 		};
+		FCE9CDD32AB9EC2C00A748AC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FCE9CDD42AB9EC4700A748AC /* Dated.swift */,
+				FCE9CDD62AB9ECE200A748AC /* Array+Dated.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		FCFB77892AB9258C00EE480E = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +137,7 @@
 		FCFB77942AB9258C00EE480E /* Pushup Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				FCE9CDD32AB9EC2C00A748AC /* Utility */,
 				FCA6F6922AB9290300B6B46B /* Model */,
 				FCA6F6902AB928E700B6B46B /* View */,
 				FCA6F6942AB9295F00B6B46B /* ViewModel */,
@@ -289,6 +303,8 @@
 			files = (
 				FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */,
 				FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */,
+				FCE9CDD72AB9ECE200A748AC /* Array+Dated.swift in Sources */,
+				FCE9CDD52AB9EC4700A748AC /* Dated.swift in Sources */,
 				FCFB77982AB9258C00EE480E /* PushupTrackerView.swift in Sources */,
 				FCFB77962AB9258C00EE480E /* Pushup_TrackerApp.swift in Sources */,
 			);
