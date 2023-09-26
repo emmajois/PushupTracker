@@ -12,27 +12,57 @@ struct PushupTrackerView: View {
     var pushupViewModel: PushupViewModel
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form{
-                HStack{
-                    Text("Grand total push-ups:")
-                        .bold()
-                    Spacer()
-                    Text("\(pushupViewModel.totalCount)")
-                }
-                HStack{
-                    Text("Push-ups that count for Kyle:")
-                        .bold()
-                    Spacer()
-                    Text("\(pushupViewModel.pushupsThatCount)")
-                }
-                Button {
-                    /// NEEDSWORK: report the total
-                } label: {
-                    Label("Report", systemImage: "square.and.arrow.up")
-                }
+                totalsSection
+                workoutsSection
             }
             .navigationTitle("Push-Up Tracker")
+        }
+    }
+    
+    var totalsSection: some View{
+        Section {
+            HStack{
+                Text("Grand total push-ups:")
+                    .bold()
+                Spacer()
+                Text("\(pushupViewModel.totalCount)")
+            }
+            HStack{
+                Text("Push-ups that count for Kyle:")
+                    .bold()
+                Spacer()
+                Text("\(pushupViewModel.pushupsThatCount)")
+            }
+            Button {
+                /// NEEDSWORK: report the total
+            } label: {
+                Label("Report", systemImage: "square.and.arrow.up")
+            }
+        }
+    }
+    
+    var workoutsSection: some View {
+        Section(header: Text("Individual Workeouts")){
+            if pushupViewModel.workouts.isEmpty{
+                Button {
+                    //needs work
+                } label: {
+                    Label("Add your first workout", systemImage: "plus.circle")
+                }
+                
+            } else{
+                List{
+                    ForEach(pushupViewModel.workouts){ workout in
+                        HStack{
+                            Text(MediumDateFormatter.shared.string(from: workout.date))
+                            Spacer()
+                            Text("\(workout.count)")
+                        }
+                    }
+                }
+            }
         }
     }
 }

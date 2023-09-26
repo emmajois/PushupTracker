@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1359F52AC255C90078C438 /* MediumDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1359F42AC255C90078C438 /* MediumDateFormatter.swift */; };
 		FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6952AB92A1200B6B46B /* PushupModel.swift */; };
 		FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */; };
 		FCE9CDD52AB9EC4700A748AC /* Dated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9CDD42AB9EC4700A748AC /* Dated.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1359F42AC255C90078C438 /* MediumDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumDateFormatter.swift; sourceTree = "<group>"; };
 		FCA6F6952AB92A1200B6B46B /* PushupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupModel.swift; sourceTree = "<group>"; };
 		FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupViewModel.swift; sourceTree = "<group>"; };
 		FCE9CDD42AB9EC4700A748AC /* Dated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dated.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				FCE9CDD42AB9EC4700A748AC /* Dated.swift */,
 				FCE9CDD62AB9ECE200A748AC /* Array+Dated.swift */,
+				FC1359F42AC255C90078C438 /* MediumDateFormatter.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */,
 				FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */,
 				FCE9CDD72AB9ECE200A748AC /* Array+Dated.swift in Sources */,
+				FC1359F52AC255C90078C438 /* MediumDateFormatter.swift in Sources */,
 				FCE9CDD52AB9EC4700A748AC /* Dated.swift in Sources */,
 				FCFB77982AB9258C00EE480E /* PushupTrackerView.swift in Sources */,
 				FCFB77962AB9258C00EE480E /* Pushup_TrackerApp.swift in Sources */,

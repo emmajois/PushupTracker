@@ -27,6 +27,8 @@ struct PushupModel {
         
     }
     
+    // MARK: - Helpers
+    
     mutating func addWorkout(count:Int, day: Int, month: Int, year: Int ){
         var dateComponents = DateComponents()
         dateComponents.day = day
@@ -43,6 +45,8 @@ struct PushupModel {
             }
         }
     }
+    
+    // MARK: - Nested Types
     
     struct WorkoutReport: Identifiable, Dated{
         var id = UUID()

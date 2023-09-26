@@ -16,7 +16,7 @@ extension Dated {
         let components = Calendar.current.dateComponents([.year, .month,. day], from: date)
         
         guard let year = components.year, let month = components.month, let day = components.day else{
-            return (year: 0, month: 0, day: 0)
+            return (0, 0, 0)
         }
         return (year, month, day)
     }

@@ -21,6 +21,10 @@ import Foundation
         pushupData.grandTotal
     }
     
+    var workouts: [PushupModel.WorkoutReport] {
+        pushupData.workouts
+    }
+    
     //MARK: - User intents
     func addWorkout(date: Date, count: Int){
         //NEEDSWORK
