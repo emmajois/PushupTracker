@@ -19,11 +19,11 @@ struct PushupModel {
         workouts = []
         
         addWorkout(count: 50, day: 5, month: 9, year: 2023)
-        addWorkout(count: 55, day: 6, month: 9, year: 2023)
-        addWorkout(count: 61, day: 7, month: 9, year: 2023)
-        addWorkout(count: 67, day: 8, month: 9, year: 2023)
-        addWorkout(count: 74, day: 9, month: 9, year: 2023)
-        addWorkout(count: 81, day: 10, month: 9, year: 2023)
+        addWorkout(count: 55, day: 7, month: 9, year: 2023)
+        addWorkout(count: 61, day: 9, month: 9, year: 2023)
+        addWorkout(count: 67, day: 11, month: 9, year: 2023)
+        addWorkout(count: 74, day: 13, month: 9, year: 2023)
+        addWorkout(count: 82, day: 15, month: 9, year: 2023)
         addWorkout(count: 40, day: 11, month: 9, year: 2022)
         
     }

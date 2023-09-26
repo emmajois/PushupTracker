@@ -14,7 +14,7 @@ import Foundation
         
         static let maxDailyPushupsForKyle = 50
         static let maxDateValueForKyle = 11 * maxDaysPerMonth + 10
-        static let minDateValueForKyle = 8 * maxDaysPerMonth * 3
+        static let minDateValueForKyle = 8 * maxDaysPerMonth + 3
     }
     
     // MARK: - Properties
