@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FC1359F52AC255C90078C438 /* MediumDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1359F42AC255C90078C438 /* MediumDateFormatter.swift */; };
+		FC1359F72AC25E210078C438 /* WorkoutReport+DateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1359F62AC25E210078C438 /* WorkoutReport+DateString.swift */; };
 		FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6952AB92A1200B6B46B /* PushupModel.swift */; };
 		FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */; };
 		FCE9CDD52AB9EC4700A748AC /* Dated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE9CDD42AB9EC4700A748AC /* Dated.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		FC1359F42AC255C90078C438 /* MediumDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumDateFormatter.swift; sourceTree = "<group>"; };
+		FC1359F62AC25E210078C438 /* WorkoutReport+DateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutReport+DateString.swift"; sourceTree = "<group>"; };
 		FCA6F6952AB92A1200B6B46B /* PushupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupModel.swift; sourceTree = "<group>"; };
 		FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupViewModel.swift; sourceTree = "<group>"; };
 		FCE9CDD42AB9EC4700A748AC /* Dated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dated.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				FCA6F6972AB92AD600B6B46B /* PushupViewModel.swift */,
+				FC1359F62AC25E210078C438 /* WorkoutReport+DateString.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1359F72AC25E210078C438 /* WorkoutReport+DateString.swift in Sources */,
 				FCA6F6962AB92A1200B6B46B /* PushupModel.swift in Sources */,
 				FCA6F6982AB92AD600B6B46B /* PushupViewModel.swift in Sources */,
 				FCE9CDD72AB9ECE200A748AC /* Array+Dated.swift in Sources */,
